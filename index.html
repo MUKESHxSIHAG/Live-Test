@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoomi Homepage</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/root.css">
+    <link rel="shortcut icon" href="/assets/images/svg/Logo.svg" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="overflow-hidden">
+
+    <section>
+        <div id="box" class="overflow-hidden">
+            <div id="preloader-box" class="d-flex flex-column justify-content-center">
+                <img class="mx-auto loder-img" src="./assets/images/svg/Boy1.svg" alt="preloder" />
+            </div>
+        </div>
+    </section>
+
+
+
+    <nav class="position-sticky bg_tertiary top-0 pt-3 z-99">
+        <div class="my-container">
+            <div class="py-3 d-flex justify-content-between align-items-center">
+                <img src="./assets//images/svg/Logo.svg" alt="">
+                <ul
+                    class="mb-0 ps-0 d-md-flex justify-content-center align-items-center gap-5 text-white d-none d-md-block">
+                    <li><a class="fc-black fs-18 fw-500 ff-Inter smoothScrool       hoverline position-relative "
+                            href="#aboutus">About Us</a></li>
+                    <li><a class="fc-black fs-18 fw-500 ff-Inter hoverline position-relative " href="#news">News</a>
+                    </li>
+                    <li><a class="fc-black fs-18 fw-500 ff-Inter hoverline position-relative " href="#contactus">Contact
+                            Us</a></li>
+                    <div class="position-relative"><button class="fc-white fs-18 fw-500 ff-Inter headerBtn">Get
+                            Started</button></div>
+                </ul>
+                <button id="openNav" onclick="openNav()" class="menu d-md-none " type="button">&#9776</button>
+                <div id="Menu" class="d-md-none navbar1 d-flex justify-content-center align-items-center">
+                    <button class="menu position-absolute closbtn text-black" onclick="closeNav()"
+                        type="button">&times;</button>
+                    <ul class="mb-0 ps-0 d-flex justify-content-center align-items-center flex-column gap-3 text-white">
+                        <li><a class="fc-black fs-18 fw-500 ff-Inter mt-3" href="">About Us</a></li>
+                        <li><a class="fc-black fs-18 fw-500 ff-Inter mt-3" href="">News</a></li>
+                        <li><a class="fc-black fs-18 fw-500 ff-Inter mt-3" href="">Contact Us</a></li>
+                        <div class="position-relative">
+                            <button class="headerBtn fc-white fs-18 fw-500 ff-Inter mt-3">Get Started</button>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg_tertiary position-relative overflow-hidden">
+        <img class="union position-absolute" src="./assets//images/png/union.png" alt="Bg Gradient">
+        <img class="union2 position-absolute" src="./assets//images/png/union2.png" alt="Bg Gradient">
+        <div class="my-container position-relative z-1">
+
+            <div class="pb-127">
+                <div class="d-flex justify-content-center align-items-center flex-column pt-5">
+                    <h1 class="ff-Plus fs-52 fw-400 fc-black max-width-819 text-center pt-5 mt-5"><span
+                            class="fw-800">Next
+                            Generation</span>
+                        Patient Engagement and RTM Solution✨</h1>
+                    <p class="text-center ff-Inter fs-24 fw-400 fc-black opacity07">Industry leading AI motion-tracking
+                        technology</p>
+                </div>
+                <div class="d-flex justify-content-center align-items-center mt-5 pt-2">
+                    <div class="emailInput justify-content-between ">
+                        <input class="fs-16 fc-black fw-500 ff-Inter" type="email" placeholder="Enter Your Email">
+                        <button class="headerBtn ff-Inter fw-600 fc-white fs-16">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="headerLine position-relative">
+            <img class="position-absolute tree1 d-md-block d-none" src="./assets/images/png/Tree1.png" alt="Tree">
+            <img class="position-absolute tree2 d-md-block d-none" src="./assets/images/png/Tree2.png" alt="Tree">
+        </div>
+        <div class="headerEnd">
+            <div class="my-container pt-5">
+
+                <img class="w-100" src="./assets/images/png/Workout.png" alt="Workout">
+
+            </div>
+    </header>
+
+
+
+    <section class="mt-125 position-relative">
+        <img class="union3 position-absolute" src="./assets/images/png/union3.png" alt="">
+        <div class="my-container">
+            <div class="d-flex justify-content-center align-items-center flex-column" data-aos="zoom-in"
+                data-aos-duration="1000" data-aos-delay="100">
+                <h3 class="ff-Inter fs-16 fw-500 fc-primary mb-0">FEATURES</h3>
+                <h2 class="ff-Plus fw-400 fs-40 fc-black mb-0 text-center">Explore Our <span class="fw-600">Amazing
+                        Features</span>
+                </h2>
+                <p class="ff-Inter fs-16 fw-600 fc-black opacity07 mb-0 max-724 text-center">Yoomi is more than just a
+                    regular remote monitoring solution. Our product supports patients and providers through every
+                    step of the rehabilitation process</p>
+            </div>
+        </div>
+
+        <div class="my-container mt-55 pb-5 overflow-hidden position-relative">
+
+            <div class="row featuresSection featurespd  " data-aos="zoom-out">
+                <div class="col-lg-6 col-12 d-none d-lg-block">
+                    <div data-aos="right" data-aos-delay="100">
+                        <h3 class="fc-primary ff-Inter fs-16 fw-500">LIBRARY</h3>
+                        <h2 class="mb-0 ff-Plus fs-32 fc-black fw-400">Extensive Exercise <span
+                                class="fw-600">Library</span></h2>
+                        <div class="d-flex align-items-center mt-4 gap-15">
+                            <img src="./assets/images/svg/Tick.svg" alt="Tick">
+                            <p class="mb-0 ff-Inter fw-400 fc-black opacity07">Utilize Yoomi’s HEP templates to quickly
+                                create and assign programs to your patients</p>
+                        </div>
+                        <div class="d-flex align-items-center mt-2 gap-15">
+                            <img src="./assets/images/svg/Tick.svg" alt="Tick">
+                            <p class="mb-0 ff-Inter fw-400 fc-black opacity07">Choose from our library of exercises for
+                                all patient cases</p>
+                        </div>
+                        <div class="d-flex align-items-center mt-2 gap-15">
+                            <img src="./assets/images/svg/Tick.svg" alt="Tick">
+                            <p class="mb-0 ff-Inter fw-400 fc-black opacity07">Use Yoomi’s industry-leading exercise
+                                generation tool <span class="d-lg-block">to create your own exercises that track
+                                    adherence</span> and form in
+                                seconds</p>
+                        </div>
+                        <div class="position-relative"><button
+                                class="ff-Inter fs-16 fw-600 fc-white libraryBtn mb-0 mt-37">View the Library</button>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-6 mt-lg-0 mt-5 pe-0 ">
+                    <div class="d-lg-none pb-4" data-aos="right" data-aos-duration="1000" data-aos-delay="100">
+                        <h3 class="fc-primary ff-Inter fs-16 fw-500">LIBRARY</h3>
+                        <h2 class="mb-0 ff-Plus fs-32 fc-black fw-400">Extensive Exercise <span
+                                class="fw-600">Library</span></h2>
+                    </div>
+                    <div class="sliderBg position-absolute d-lg-block d-none"></div>
+                    <div class="slick-slider2 d-flex justify-content-lg-end justify-content-center gap-md-0 gap-3">
+                        <div class="d-flex justify-content-center align-items-center"><img
+                                src="./assets/images/png/Boy1.png" alt="Slide 1"></div>
+                        <div class="d-flex justify-content-center align-items-center"><img
+                                src="./assets/images//png/Boy2.png" alt="Slide 2"></div>
+                        <div class="d-flex justify-content-center align-items-center"><img
+                                src="./assets/images/png/Boy1.png" alt="Slide 3"></div>
+                    </div>
+
+                    <div class="d-flex gap-2 align-items-center justify-content-lg-start justify-content-center mt-18"
+                        id="sliderBtn">
+                        <div class="prev1 crsr"><svg width="35" height="35" viewBox="0 0 35 35" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="17.3041" cy="17.5673" r="16.8655" stroke="black" stroke-width="0.877078" />
+                                <path d="M19.0573 13.1828L14.6719 17.5682L19.0573 21.9536" stroke="black"
+                                    stroke-width="1.75416" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+
+                        </div>
+                        <div class="Next1 crsr">
+                            <svg width="35" height="35" viewBox="0 0 35 35" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="17.3043" cy="17.5675" r="16.8655" transform="rotate(-180 17.3043 17.5675)"
+                                    stroke="black" stroke-width="0.877078" />
+                                <path d="M15.5511 21.9519L19.9365 17.5665L15.5511 13.1812" stroke="black"
+                                    stroke-width="1.75416" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+
+                        </div>
+                    </div>
+                    <div class="d-lg-none" data-aos="fade-left">
+                        <div class="d-flex align-items-center mt-4 gap-15">
+                            <img src="./assets/images/svg/Tick.svg" alt="Tick">
+                            <p class="mb-0 ff-Inter fw-400 fc-black opacity07">Utilize Yoomi’s HEP templates to quickly
+                                create and assign programs to your patients</p>
+                        </div>
+                        <div class="d-flex align-items-center mt-2 gap-15">
+                            <img src="./assets/images/svg/Tick.svg" alt="Tick">
+                            <p class="mb-0 ff-Inter fw-400 fc-black opacity07">Choose from our library of exercises for
+                                all patient cases</p>
+                        </div>
+                        <div class="d-flex align-items-center mt-2 gap-15">
+                            <img src="./assets/images/svg/Tick.svg" alt="Tick">
+                            <p class="mb-0 ff-Inter fw-400 fc-black opacity07">Use Yoomi’s industry-leading exercise
+                                generation tool <span class="d-lg-block">to create your own exercises that track
+                                    adherence</span> and form in
+                                seconds</p>
+                        </div>
+                        <div class="position-relative"><button
+                                class="ff-Inter fs-16 fw-600 fc-white libraryBtn mb-0 mt-37">View the
+                                Library</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEEDBACK__SECTION -->
+
+
+    <section class="py-5 position-relative">
+        <img src="./assets/images/png/union4.png" class="position-absolute union4" alt="">
+
+        <div class="my-container position-relative">
+            <div class="row align-items-center justify-content-center featuresSection">
+                <div class="col-lg-6 d-none d-lg-block">
+                    <img data-aos="fade-right" class="w-100" src="./assets/images/png/feedbackSection.png"
+                        alt="Exercising Boy">
+
+                </div>
+
+                <div class="col-lg-6 mt-lg-0 mt-5">
+                    <div class=" d-flex flex-column justify-content-end" data-aos="fade-left">
+                        <h3 class="fc-primary ff-Inter fs-16 fw-500">TRACKING</h3>
+                        <h2 class="mb-0 ff-Plus fs-32 fc-black fw-400">Cutting Edge Motion<span class="fw-600">
+                                Tracking/ Feedback</span></h2>
+                        <div class="d-lg-none pt-3">
+                            <img class="w-100" src="./assets/images/png/feedbackSection.png" alt="Exercising Boy">
+                        </div>
+                        <div class="d-flex align-items-center mt-3 gap-15">
+                            <img src="./assets/images/svg/Tick.svg" alt="Tick">
+                            <p class="mb-0 ff-Inter fw-400 fc-black opacity07">Provides a holistic, real-time
+                                analysis of patient <span class="d-lg-block"> exercise form, capturing 300+ data points
+                                    and </span> critical metrics.</p>
+                        </div>
+                        <div class="d-flex align-items-center mt-2 gap-15">
+                            <img src="./assets/images/svg/Tick.svg" alt="Tick">
+                            <p class="mb-0 ff-Inter fw-400 fc-black opacity07">Delivers immediate feedback and
+                                guidance to <span class="d-lg-block"> correct and improve exercise form</span></p>
+                        </div>
+                        <div class="d-flex align-items-center mt-2 gap-15">
+                            <img src="./assets/images/svg/Tick.svg" alt="Tick">
+                            <p class="mb-0 ff-Inter fw-400 fc-black opacity07">Supported by the most accurate
+                                motion-tracking <span class="d-lg-block"> model designed for rehabilitation, Yoomi
+                                    Vision</span></p>
+                        </div>
+                        <div class="d-flex align-items-center mt-2 gap-15">
+                            <img src="./assets/images/svg/Tick.svg" alt="Tick">
+                            <p class="mb-0 ff-Inter fw-400 fc-black opacity07">Requires no custom hardware, sensors, or
+                                equipment</p>
+                        </div>
+                        <div class=" mt-37 position-relative">
+                            <button class="ff-Inter fs-16 fw-600 fc-white libraryBtn mb-0">Test it Yourself</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- REPORTING -->
+
+    <section class="py-5 position-relative" id="news">
+        <div class="my-container">
+            <div class="row justify-content-center align-items-center featuresSection">
+                <div class="col-lg-6">
+                    <div data-aos="fade-right">
+                        <h3 class="ff-Inter fc-primary fs-16 fw-500">REPORT</h3>
+                        <h2 class="ff-Plus fs-32 fw-400 fc-black">Reporting +<span class="fw-600"> Analytics</span></h2>
+                        <div class="d-lg-none pt-3">
+                            <img class="w-100" src="./assets/images/png/Report.png" alt="Report">
+
+                        </div>
+                        <p class="fs-16 ff-Inter fw-400 fc-black fw-400 opacity07 mb-0">Track patient progress over
+                            time
+                            with compliance,<span class="d-lg-block">pain, RPE, ROM and other key metrics</span></p>
+                        <div class="mt-37">
+                            <button class="ff-Inter fs-16 fw-600 fc-white libraryBtn mb-0">View the Matrics</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 mt-lg-0 mt-5 d-none d-lg-block">
+                    <img data-aos="fade-left" class="w-100" src="./assets/images/png/Report.png" alt="Report">
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- BILLING -->
+
+    <section class="pt-5 pb-127 position-relative">
+        <img src="./assets/images/png/union5.png" class="position-absolute union5" alt="">
+        <div class="my-container pb-4 position-relative">
+            <div class="row featuresSection justify-content-between align-items-center ">
+                <div class="col-lg-6 col-12 d-lg-block d-none">
+                    <img data-aos="fade-right" class="w-100" src="./assets/images/png/Billing.png" alt="Billing">
+                </div>
+
+                <div class="col-lg-6 col-12">
+                    <div class="ms-4" data-aos="fade-left">
+                        <h3 class="ff-Inter fc-primary fs-16 fw-500">TRACKING</h3>
+                        <h2 class="ff-Plus fs-32 fw-400 fc-black">Remote Therapeutic<span class="fw-600 d-lg-block">
+                                Monitoring
+                                + Billing</span></h2>
+
+                        <div class="d-lg-none pt-3">
+                            <img class="w-100" src="./assets/images/png/Billing.png" alt="Billing">
+                        </div>
+                        <p class="fs-16 ff-Inter fw-400 fc-black fw-400 opacity07 max-444 mb-0">Enhance patient care
+                            with
+                            remote monitoring, and enable providers to generate over $160 per patient per month in
+                            additional revenue</p>
+                        <div class="mt-37">
+                            <button class="ff-Inter fs-16 fw-600 fc-white libraryBtn mb-0">Check Out The Demo</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg_skyBlue pb-127 position-relative">
+        <div class="my-container">
+            <div class="d-flex justify-content-center align-items-center flex-column mt-79" data-aos="zoom-in"
+                data-aos-duration="1000" data-aos-delay="100">
+                <h3 class="ff-Inter fs-16 fw-500 fc-primary">PLATFORM</h3>
+                <h2 class="ff-Plus fs-40 fc-black fw-400 text-center">Through <Span class="fw-600"> Our Platform</Span>
+                </h2>
+                <p class="ff-Inter fs-16 fw-400 fc-black opacity07 text-center">We’ve helped out partners and patients
+                    achieve </p>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center align-items-center">
+
+            <div class="my-container pb-md-4">
+                <div class="row pt-59 justify-content-center align-items-center">
+                    <div class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-center">
+                        <div class="platformCard1 position-relative overflow-hidden d-flex justify-content-center align-items-center"
+                            data-aos="fade-right">
+                            <img class="position-absolute bg1" src="./assets/images/svg/Platformcardbg.svg" alt="">
+                            <div class="d-flex justify-content-center align-items-center flex-column">
+                                <h2 class="fs-50 fw-600 fc-white ff-Inter mb-0">50%</h2>
+                                <p class="fs-20 fw-400 fc-white ff-Inter opacity-75 mb-0 text-center">Reduction in Pain
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div
+                        class="col-lg-4 col-md-6 d-flex flex-column justify-content-center align-items-center mt-md-0 mt-4">
+                        <div class="platformCard2 position-relative overflow-hidden d-flex justify-content-center align-items-center"
+                            data-aos="zoom-in">
+                            <img class="position-absolute bg1" src="./assets/images/svg/Platformcardbg.svg" alt="">
+                            <div class="d-flex justify-content-center align-items-center flex-column">
+                                <h2 class="fs-50 fw-600 fc-white ff-Inter mb-0">90%</h2>
+                                <p class="fs-20 fw-400 fc-white ff-Inter opacity-75 mb-0 text-center">Increase
+                                    In-Patient Satisfaction</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-4 d-flex flex-column justify-content-center align-items-center mt-lg-0 mt-4">
+                        <div class="platformCard3 position-relative overflow-hidden d-flex justify-content-center align-items-center"
+                            data-aos="fade-left">
+                            <img class="position-absolute bg1" src="./assets/images/svg/Platformcardbg.svg" alt="">
+                            <div class="d-flex justify-content-center align-items-center flex-column">
+                                <h2 class="fs-50 fw-600 fc-white ff-Inter mb-0">60%</h2>
+                                <p class="fs-20 fw-400 fc-white ff-Inter opacity-75 mb-0 text-center">Faster Recovery
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bg_skyBlue">
+        <div class="d-flex justify-content-center align-items-center flex-column" data-aos="zoom-in"
+            data-aos-duration="1000" data-aos-delay="100">
+            <h3 class="fs-16 fw-500 ff-Inter fc-primary">Forecast your profits</h3>
+            <h2 class="fc-black fs-40 fw-400 ff-Plus text-center">Calculate Your <span class="fw-600"> Reimbursement
+                    <span class="d-lg-block">With Yoomi</span></span></h2>
+        </div>
+
+        <div class="my-container pb-76 mt-70">
+            <div class="d-flex justify-content-center flex-wrap flex-column align-items-center">
+                <div class="d-flex justify-content-center flex-wrap align-items-center gap-4">
+                    <div class="calculate d-flex flex-wrap flex-column justify-content-center align-items-center">
+                        <div class="totalPatients d-flex flex-column justify-content-center align-items-center">
+                            <h4 class="ff-Inter fc-white fs-16 fw-600 mb-0">Total Patients per month</h4>
+                            <input class="mt-3" type="range" id="range-input" min="0" max="200" value="100"
+                                onchange="updateValue(this.value)">
+                            <button id="range-value"
+                                class="fc-primary patientsBtn fs-28 fw-600 ff-Inter mt-37">100</button>
+                        </div>
+
+                    </div>
+
+                    <div class="d-flex flex-column">
+                        <div class="initialSetup">
+                            <h3 class="fc-black ff-Inter fs-16 fw-600 mb-0">Initial Step</h3>
+                            <button class="fs-28 fw-600 ff-Inter fc-white mb-0 dollarBtn transitions">$ 40.26</button>
+                        </div>
+                        <div class="initialSetup mt-4">
+                            <h3 class="fc-black ff-Inter fs-16 fw-600 mb-0">Patient <span
+                                    class="d-block">Monitoring</span>
+                            </h3>
+                            <button class="fs-28 fw-600 ff-Inter fc-white mb-0 dollarBtn transitions">$ 40.26</button>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column justify-content-end">
+                        <div class="initialSetup">
+                            <h3 class="fc-black ff-Inter fs-16 fw-600 mb-0">First
+                                <span class="d-block">20 Minutes</span>
+                            </h3>
+                            <button class="fs-28 fw-600 ff-Inter fc-white mb-0 dollarBtn transitions">$ 40.26</button>
+                        </div>
+                        <div class="initialSetup mt-4">
+                            <h3 class="fc-black ff-Inter fs-16 fw-600 mb-0">Additional<span class="d-block">20
+                                    Minitutes</span></span></h3>
+                            <button class="fs-28 fw-600 ff-Inter fc-white mb-0 dollarBtn transitions">$ 40.26</button>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="potential mt-4">
+                    <h3 class="fc-black ff-Inter fs-16 fw-600 mb-0">Potential Reimbursement</h3>
+                    <button class="fs-28 fw-600 ff-Inter fc-white dollarBtn1 transitions">$12000</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg_white pt-md-4">
+        <div class="my-container">
+            <div class="d-flex justify-content-center align-items-center flex-column mt-5 pt-5" data-aos="zoom-in"
+                data-aos-duration="1000" data-aos-delay="100">
+                <h3 class="ff-Inter fs-16 fw-500 fc-primary ">PARTNERS</h3>
+                <h2 class="fc-black fw-400 fs-40 ff-Plus text-center">Recognized by Leading <span
+                        class="fw-600">Healthcare
+                        <span class="d-lg-block">Institutions</span></span>
+                </h2>
+            </div>
+        </div>
+
+        <div class="container pb-md-5  mb-5">
+            <div class="row overflow-hidden py-3 py-sm-4 py-md-5">
+                <div class="myslider_1 d-flex gap-3">
+                    <div class="mx-2 ">
+                        <img src="./assets/images/png/Slider1.png" alt="">
+                    </div>
+
+                    <div class="mx-2 ">
+                        <img src="./assets/images/png/Slider2.png" alt="">
+                    </div>
+
+                    <div class="mx-2 ">
+                        <img src="./assets/images/png/Slider3.png" alt="">
+                    </div>
+
+                    <div class="mx-2">
+                        <img src="./assets/images/png/Slider4.png" alt="">
+                    </div>
+
+                    <div class="mx-2 ">
+                        <img src="./assets/images/png/Slider5.png" alt="">
+                    </div>
+
+                    <div class="mx-2 ">
+                        <img src="./assets/images/png/Slider1.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- Tabs -->
+
+    <section class="pb-md-5  mb-2">
+        <div class="my-container mb-5 pb-4">
+            <div class="d-flex flex-column justify-content-center align-items-center" data-aos="zoom-in"
+                data-aos-duration="1000" data-aos-delay="100">
+                <h3 class="fs-16 fw-500 fc-primary ff-Inter">KNOW MORE</h3>
+                <h2 class="fc-black fs-40 fw-400 ff-Plus text-center">And Used by the Biggest <span class="fw-600">
+                        Figures <span class="d-lg-block">in Sports and Rehab</span></span> </h2>
+            </div>
+
+
+
+            <div class="mt-4 mt-sm-5 pt-md-3">
+                <div class="tab-content active">
+                    <img class="w-100 h-473 br-16" src="./assets/images/png/Tab1.png" alt="Picture 1">
+                </div>
+
+                <div class="tab-content">
+                    <img class="w-100 h-473 br-16" src="./assets/images/png/Tab02.png" alt="Picture 2">
+                </div>
+
+                <div class="tab-content">
+                    <img class="w-100 h-473 br-16" src="./assets/images/png/Tab03.png" alt="Picture 3">
+                </div>
+                <div class="tab-content">
+                    <img class="w-100 h-473 br-16" src="./assets/images/png/Tab1.png" alt="Picture 1">
+                </div>
+            </div>
+            <div class="d-block overflow-x-auto text-nowrap ">
+                <div class="tab-container d-flex justify-content-center align-items-center gap-4 pb-5 mb-3   ">
+                    <button class="tab-button active " onclick="showTab(0)"><img class="br-12"
+                            src="./assets/images/png/Tab01.png" alt=""></button>
+                    <button class="tab-button" onclick="showTab(1)"><img src="./assets/images/png/Tab2.png"
+                            alt=""></button>
+                    <button class="tab-button" onclick="showTab(2)"><img src="./assets/images/png/Tab3.png"
+                            alt=""></button>
+                    <button class="tab-button" onclick="showTab(3)"><img class="br-12"
+                            src="./assets/images/png/Tab01.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Compliance and Safety -->
+
+    <section>
+        <div class="my-container mb-5 pb-sm-5">
+            <div class="row mb-5 pb-3 justify-content-center align-items-center" data-aos="fade-right">
+                <div class="col-lg-6">
+                    <div>
+                        <h3 class="ff-Inter fs-16 fw-500 fc-primary">THE BEST FOR YOU</h3>
+                        <h2 class="ff-Plus fs-40 fw-400 fc-black max-455 ">Committed to Industry-Standard <span
+                                class="fw-600"> Compliance
+                                and Safety</span></h2>
+                        <p class="fs-16 ff-Inter fc-black opacity07 fw-400 max-426">Yoomi has signed the American
+                            Physical
+                            Therapy Association Digital Transparency pledge, illustrating our commitment to
+                            the fact that digital "physical therapy" services are only performed or directed by licensed
+                            physical therapists in
+                            accordance with all regulations and APTA’s Standards of Practice for Physical Therapy.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mt-lg-0 mt-4">
+                    <div class="d-flex flex-wrap justify-content-center align-items-center " data-aos="fade-left">
+
+                        <div class="d-flex flex-column flex-wrap gap-34">
+                            <div class="grid-1">
+                                <div class="box1 d-flex justify-content-center align-items-center">
+                                    <img src="./assets/images/png/box01.png" alt="">
+                                </div>
+                            </div>
+
+                            <div class="grid-2">
+                                <div class="box1 d-flex justify-content-center align-items-center">
+                                    <img src="./assets/images/png/box02.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid-3 ms-40 mt-sm-0 mt-4">
+                            <div class="box1 d-flex justify-content-center align-items-center">
+                                <img src="./assets/images/png/box03.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Client Review -->
+
+    <section class="pb-4" id="aboutus">
+        <div class="my-container pb-3">
+            <div data-aos="zoom-in">
+                <h3 class="fs-16 ff-Inter fw-500 fc-primary text-center mx-auto">CLIENT REVIEW</h3>
+                <h2 class="fs-40 ff-Plus fc-black fw-400 text-center mx-auto">What are Client Think <span
+                        class="fw-600">
+                        About
+                        Us</span>
+                </h2>
+            </div>
+            <div class="mx-auto">
+                <div class="slick-slider03 d-flex justify-content-center">
+                    <div class="d-flex justify-content-center align-items-center pb-4 mx-3">
+                        <div class="aboutUs d-flex justify-content-center align-items-center mt-5">
+                            <div class="d-flex justify-content-center flex-column align-items-center">
+                                <img src="./assets/images/png/userProfile.png" alt="User Profile">
+                                <h4 class="fs-20 fw-500 ff-Inter fc-black mb-0">Joy Robert <span class="fs-14">( USA
+                                        )</span>
+                                </h4>
+                                <p class="fs-14 ff-Inter fw-500 fc-light mt-2">CEO ( yoomi )</p>
+                                <div class="position-relative">
+                                    <img class="position-absolute top1" src="./assets/images/svg/Coma1.svg"
+                                        alt="Coma 1">
+                                    <p class="position-relative ff-Inter fw-400 fs-16 fc-black opacity07 text-center ">
+                                        <span class="mx-3">I'm a
+                                            paragraph.
+                                            Click here
+                                            to add your own text and edit me. It’s <span class="d-lg-block">easy. Just
+                                                click
+                                                “Edit Text”
+                                                or double click me to
+                                                add your own</span> content and make changes to the font.</span>
+                                    </p>
+                                    <img class="position-absolute top2" src="./assets/images/svg/Coma2.svg"
+                                        alt="Coma 2">
+                                </div>
+                                <img src="./assets/images/svg/stars.svg" alt="Stars">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center mx-3">
+                        <div class="aboutUs d-flex justify-content-center align-items-center mt-5">
+
+
+                            <div class="d-flex justify-content-center flex-column align-items-center">
+                                <img src="./assets/images/png/userProfile.png" alt="User Profile">
+                                <h4 class="fs-20 fw-500 ff-Inter fc-black mb-0">Joy Robert <span class="fs-14">( USA
+                                        )</span>
+                                </h4>
+                                <p class="fs-14 ff-Inter fw-500 fc-light mt-2">CEO ( yoomi )</p>
+                                <div class="position-relative">
+                                    <img class="position-absolute top1" src="./assets/images/svg/Coma1.svg"
+                                        alt="Coma 1">
+                                    <p class="position-relative ff-Inter fw-400 fs-16 fc-black opacity07 text-center ">
+                                        <span class="mx-3">I'm a
+                                            paragraph.
+                                            Click here
+                                            to add your own text and edit me. It’s <span class="d-lg-block">easy. Just
+                                                click
+                                                “Edit Text”
+                                                or double click me to
+                                                add your own</span> content and make changes to the font.</span>
+                                    </p>
+                                    <img class="position-absolute top2" src="./assets/images/svg/Coma2.svg"
+                                        alt="Coma 2">
+                                </div>
+                                <img src="./assets/images/svg/stars.svg" alt="Stars">
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center mx-3">
+                        <div class="aboutUs d-flex justify-content-center align-items-center mt-5">
+
+
+                            <div class="d-flex justify-content-center flex-column align-items-center">
+                                <img src="./assets/images/png/userProfile.png" alt="User Profile">
+                                <h4 class="fs-20 fw-500 ff-Inter fc-black mb-0">Joy Robert <span class="fs-14">( USA
+                                        )</span>
+                                </h4>
+                                <p class="fs-14 ff-Inter fw-500 fc-light mt-2">CEO ( yoomi )</p>
+                                <div class="position-relative">
+                                    <img class="position-absolute top1" src="./assets/images/svg/Coma1.svg"
+                                        alt="Coma 1">
+                                    <p class="position-relative ff-Inter fw-400 fs-16 fc-black opacity07 text-center ">
+                                        <span class="mx-3">I'm a
+                                            paragraph.
+                                            Click here
+                                            to add your own text and edit me. It’s <span class="d-lg-block">easy. Just
+                                                click
+                                                “Edit Text”
+                                                or double click me to
+                                                add your own</span> content and make changes to the font.</span>
+                                    </p>
+                                    <img class="position-absolute top2" src="./assets/images/svg/Coma2.svg"
+                                        alt="Coma 2">
+                                </div>
+                                <img src="./assets/images/svg/stars.svg" alt="Stars">
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex gap-2 align-items-center justify-content-center" id="sliderBtn">
+                <div class="prev2 crsr"><svg width="35" height="35" viewBox="0 0 35 35" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="17.3041" cy="17.5673" r="16.8655" stroke="black" stroke-width="0.877078" />
+                        <path d="M19.0573 13.1828L14.6719 17.5682L19.0573 21.9536" stroke="black" stroke-width="1.75416"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+
+                </div>
+                <div class="Next2 crsr">
+                    <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="17.3043" cy="17.5675" r="16.8655" transform="rotate(-180 17.3043 17.5675)"
+                            stroke="black" stroke-width="0.877078" />
+                        <path d="M15.5511 21.9519L19.9365 17.5665L15.5511 13.1812" stroke="black" stroke-width="1.75416"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- signup -->
+
+    <section class="linearGradient mt-5 pt-5 pb-5" id="contactus">
+        <div class="container">
+            <div
+                class="emailSection d-flex flex-wrap justify-content-lg-between justify-content-center position-relative overflow-hidden ">
+                <img class="position-absolute yomiii" src="./assets//images//svg/BackgroundGradient.svg" alt="Gradient">
+                <div data-aos="fade-right">
+                    <img class="" src="./assets//images//svg/Yomiii.svg" alt="YOMII">
+                    <p class="ff-Plus fs-30 fw-400 fc-white mt-4">Sign Up to Join <span class="fw-600">Our
+                            Newsletter</span>
+                    </p>
+                    <div class="inputEmail d-flex justify-content-between align-items-center mt-5" id="emailinput">
+                        <input type="email" placeholder="Enter Your Email"
+                            class="ff-Inter fw-500 opacity07 fs-16 fc-secondary" />
+                        <div class="position-relative">
+                            <button class="signupBtn ff-Inter fs-16 fw-700 fc-white me-1 transitions whiteSpace">Get
+                                Started</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-lg-0 mt-5 d-flex " data-aos="fade-left">
+                    <img class="w-100" src="./assets/images/svg/Boy1.svg" alt="Boy Image">
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <section class="bg-black pt-5 ">
+        <div class="container mt-2">
+            <div class="row pb-5">
+                <div class="col-lg-4 ">
+                    <div>
+                        <img src="./assets/images/svg/FooterLogo.svg" alt="Footer Logo">
+                        <p class="mt-30 text-start ff-Inter fs-14 fw-300 fc-white">I'm a paragraph. Click here to add
+                            your <span class="d-md-block"> own text and edit me. It’s easy. Just click </span> “Edit
+                            Text”</p>
+                        <div>
+                            <div class="d-flex align-items-center gap-18 crsr"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="26" height="21" viewBox="0 0 26 21" fill="none">
+                                    <path
+                                        d="M22.8887 0.354248H2.88867C1.51367 0.354248 0.401172 1.47925 0.401172 2.85425L0.388672 17.8542C0.388672 19.2292 1.51367 20.3542 2.88867 20.3542H22.8887C24.2637 20.3542 25.3887 19.2292 25.3887 17.8542V2.85425C25.3887 1.47925 24.2637 0.354248 22.8887 0.354248ZM22.8887 5.35425L12.8887 11.6042L2.88867 5.35425V2.85425L12.8887 9.10425L22.8887 2.85425V5.35425Z"
+                                        fill="white" />
+                                </svg>
+                                <p class="mb-0 ff-Inter fs-16 fw-300 fc-white">contact@yoomi.com</p>
+                            </div>
+
+                            <div class="d-flex align-items-center mt-18 gap-18 crsr">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"
+                                    fill="none">
+                                    <path
+                                        d="M23.0687 16.8609C21.4287 16.8609 19.842 16.5942 18.362 16.1142C17.8953 15.9542 17.3753 16.0742 17.0153 16.4342L14.922 19.0609C11.1487 17.2609 7.61534 13.8609 5.73534 9.95425L8.33534 7.74091C8.69534 7.36758 8.802 6.84758 8.65534 6.38091C8.162 4.90091 7.90867 3.31425 7.90867 1.67425C7.90867 0.954248 7.30867 0.354248 6.58867 0.354248H1.97534C1.25534 0.354248 0.388672 0.674248 0.388672 1.67425C0.388672 14.0609 10.6953 24.3542 23.0687 24.3542C24.0153 24.3542 24.3887 23.5142 24.3887 22.7809V18.1809C24.3887 17.4609 23.7887 16.8609 23.0687 16.8609Z"
+                                        fill="white" />
+                                </svg>
+                                <p class="mb-0 ff-Inter fs-16 fw-300 fc-white ">+123 456 789</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-6"></div>
+
+                <div class="col-lg-4 col-12 pt-lg-0 pt-4">
+                    <div class="row justify-content-center mt-lg-0 mt-3 ">
+                        <div class="col-md-4 col-6">
+                            <ul class="ps-0  ff-Inter fs-14 fw-600 fc-white">About Us</ul>
+                            <li class="mb-0 mt-18"><a
+                                    class="mb-0 ff-Inter fs-14 fc-white fw-400 whiteSpace position-relative hoverline2"
+                                    href="#">Meet the Team</a></li>
+                            <li class="mb-0 mt-18"><a
+                                    class="mb-0 ff-Inter fs-14 fc-white fw-400 position-relative hoverline2"
+                                    href="#">Our
+                                    Mission</a></li>
+                            <li class="mb-0 mt-18"><a
+                                    class="mb-0 ff-Inter fs-14 fc-white fw-400 position-relative hoverline2"
+                                    href="#">Our
+                                    Vision</a></li>
+                        </div>
+                        <div class="col-md-4 col-6 ">
+                            <ul class="ps-0 ff-Inter fs-14 fw-600 fc-white">Contact Us</ul>
+                            <li class="mb-0 mt-18"><a
+                                    class="mb-0 ff-Inter fs-14 fc-white fw-400 position-relative hoverline2"
+                                    href="https://twitter.com/i/flow/login">Twitter</a></li>
+                            <li class="mb-0 mt-18"><a
+                                    class="mb-0 ff-Inter fs-14 fc-white fw-400 position-relative hoverline2"
+                                    href="https://Instagram.com/">Instagram</a></li>
+                            <li class="mb-0 mt-18"><a
+                                    class="mb-0 ff-Inter fs-14 fc-white fw-400 position-relative hoverline2"
+                                    href="https://Linkedin.com/">Linkedin</a></li>
+                        </div>
+                        <div class="col-md-4 col-12 mt-md-0 mt-5 ">
+                            <ul class="ps-0 ff-Inter fs-14 fw-600 fc-white">News</ul>
+                            <li class="mb-0 mt-18"><a
+                                    class="mb-0 ff-Inter fs-14 fc-white fw-400 position-relative hoverline2"
+                                    href="#">Recent</a>
+                            </li>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="simpleLine"></div>
+
+        <div class="my-container">
+            <div
+                class="d-flex flex-column flex-sm-row justify-content-sm-end align-items-center gap-34 position-relative hoverline py-4">
+                <p class="fs-14 fw-400 fc-grey ff-Inter mb-0 ">Terms of Service</p>
+                <p class="fs-14 fw-400 fc-grey ff-Inter mb-0 ">Privacy Policy</p>
+                <p class="fs-14 fw-400 fc-grey ff-Inter mb-0 ">Cookies</p>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="back-to-top pt-2">
+        <a href="#"><svg width="30" height="25" viewBox="0 0 62 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M56 29.2976L35.4192 7.89565C32.9887 5.36812 29.0114 5.36812 26.5808 7.89565L6 29.2976"
+                    stroke="white" stroke-width="11.7617" stroke-miterlimit="10" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                <path d="M48.7279 46L33.7601 30.6566C31.9924 28.8446 29.0998 28.8446 27.3321 30.6566L12.3643 46"
+                    stroke="white" stroke-width="11.7617" stroke-miterlimit="10" stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg>
+        </a>
+
+    </div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="./assets/js/app.js"></script>
+
+</html>

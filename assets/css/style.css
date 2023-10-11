@@ -118,6 +118,7 @@ input {
     outline: none !important;
     border: none !important;
     padding: 18.62px 0px 18.62px 11.07px;
+    width: 40%;
     border-radius: 4px;
 }
 

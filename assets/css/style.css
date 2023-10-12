@@ -20,7 +20,7 @@
     top: 0;
     display: flex;
     align-items: center;
-    background-color: var(--primary-color);
+    background-color: #076787;
     position: fixed;
     z-index: 1310 !important;
 }
@@ -56,7 +56,7 @@
     gap: 10px !important;
     padding-top: -30px;
     overflow: hidden;
-    color: black;
+    color: #076787;
     cursor: pointer;
     border: none;
     outline: none;
@@ -81,7 +81,7 @@
 }
 
 .closbtn {
-    top: 20px;
+    top: 35px;
     right: 20px;
 }
 
@@ -118,13 +118,13 @@ input {
     outline: none !important;
     border: none !important;
     padding: 18.62px 0px 18.62px 11.07px;
-    width: 40%;
+    max-width: 100%;
     border-radius: 4px;
 }
 
 .headerBtn {
     border-radius: 4px;
-    background: var(--deep-blue, #076787);
+    background: #076787;
     box-shadow: 0px 4px 25px 0px rgba(129, 72, 142, 0.23);
     border: none !important;
     padding: 16px 32px;
@@ -182,7 +182,7 @@ input {
     flex-shrink: 0;
     border-radius: 4px;
     background: var(--Light-blue, #82B2C2);
-    top: 6%;
+    top: -8%;
     right: -10%;
     z-index: 0;
 }
@@ -196,8 +196,13 @@ input {
     stroke: #ffffff;
 }
 
-.featurespd {
-    /* padding: 61px 0px 60.247px 30.639px !important; */
+#sliderBtn2 div:hover svg circle {
+    stroke: #076787;
+    fill: #076787;
+}
+
+#sliderBtn2 div:hover svg path {
+    stroke: #ffffff;
 }
 
 /* PreLoader */
@@ -458,6 +463,23 @@ input[type="range"]:focus::-webkit-slider-runnable-track {
     box-shadow: 0px 11px 27px 0px rgba(0, 0, 0, 0.04), 0px -16px 27px 0px rgba(0, 0, 0, 0.04);
 }
 
+.grid-1:hover,
+.grid-2:hover,
+.grid-3:hover {
+    border: 1px solid black;
+    transition: all 450ms linear;
+}
+
+.grid-1,
+.grid-2,
+.grid-3 {
+    border: 1px solid white;
+    transition: all 450ms linear;
+    border-radius: 4px;
+}
+
+
+
 .ms-40 {
     margin-left: 0px;
 }
@@ -591,6 +613,12 @@ signUp */
 .platformCard1:hover {
     scale: 1.1;
     transition: all 300ms ease-out linear;
+}
+
+.platformCard1:hover h2,
+.platformCard2:hover h2,
+.platformCard3:hover h2 {
+    font-size: 60px;
 }
 
 .platformCard2:hover {
@@ -843,5 +871,64 @@ signUp */
         max-width: none;
     }
 
+
+}
+
+@media only screen and (min-width: 443px) and (max-width: 575.99px) {
+    .ms_4 {
+        margin-left: 24px !important;
+
+    }
+}
+
+@media (max-width:415px) {
+    .flex_column {
+        flex-direction: column !important;
+    }
+
+    .h-461 {
+        max-height: 250px !important;
+    }
+
+    .emailInput {
+        border-radius: 4px;
+        background: #FFF;
+        box-shadow: 0px 4px 15px 0px rgba(7, 103, 135, 0.15);
+        max-width: 428px;
+        min-height: 56.24px;
+        padding-bottom: 3px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .justify_content_start {
+        justify-content: start !important;
+    }
+
+    .align_items_start {
+        align-items: start !important;
+    }
+
+    input {
+        outline: none !important;
+        border: none !important;
+        padding: 18.62px 0px 18.62px 11.07px;
+        width: 95%;
+        border-radius: 4px;
+    }
+
+    .headerBtn0 {
+        border-radius: 4px;
+        background: #076787;
+        box-shadow: 0px 4px 25px 0px rgba(129, 72, 142, 0.23);
+        border: none !important;
+        width: 96%;
+        padding: 16px 0px;
+        transition: all 300ms linear;
+        position: relative;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
 }

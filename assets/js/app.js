@@ -106,10 +106,23 @@ $('.myslider_1').slick({
     autoplay: true,
     autoplaySpeed: 2000,
     speed: 3000,
+    centermode: true,
     slidesToShow: 5,
+    pauseOnHover: true,
     slidesToScroll: 1,
     responsive: [
 
+        {
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false,
+                centermode: true,
+                pauseOnHover: true,
+            }
+        },
         {
             breakpoint: 992,
             settings: {
@@ -117,6 +130,8 @@ $('.myslider_1').slick({
                 slidesToScroll: 1,
                 infinite: true,
                 dots: false,
+                centermode: true,
+                pauseOnHover: true,
             }
         },
         {
@@ -125,6 +140,7 @@ $('.myslider_1').slick({
                 slidesToShow: 2,
                 slidesToScroll: 1,
                 dots: false,
+                pauseOnHover: true,
             }
         },
         {
@@ -133,6 +149,8 @@ $('.myslider_1').slick({
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 dots: false,
+                centermode: true,
+                pauseOnHover: true,
             }
         }
     ]
@@ -244,7 +262,7 @@ AOS.init({
     duration: 1000,
     once: true,
     disable: 'mobile'
-    
+
 });
 
 
